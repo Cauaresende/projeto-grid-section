@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --roxo:hsl(263, 55%, 52%);
+    --roxo-claro:hsl(264, 82%, 80%);
+    --cinza-card:hsl(217, 19%, 35%);
+    --cinza-fonte: hsl(214, 17%, 92%);
+    --azul-escuro:hsl(219, 29%, 14%);
+}
+
+@font-face {
+    font-family: fonte-principal;
+    src: url(BarlowSemiCondensed-Regular.ttf);
+    font-weight: 400;
+    font-display: swap;
+}
+
+body{
+    font-family: fonte-principal;
+    background-color: hsl(0, 0%, 81%);
+}
+
+h2 {
+    font-size: 18px;
+}
+
+main {   
+    max-height: 100vh;
+
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+section {
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+section img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--roxo-claro);
+}
+
+.section-daniel {
+    margin-top: 50px;
+    color: white;
+    background-color: var(--roxo);
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.icone-apresentacao {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.txt-principal {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.txt-secundario {
+   color: lightgray;
+}
+
+.section-jonathan {
+    margin-top: 50px;
+    color: white;
+    background-color: var(--cinza-card);
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.section-jeanette {
+    margin-top: 50px;
+    color: var(--cinza-card);
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.section-jeanette .txt-secundario {
+    color: var(--cinza-card);
+}
