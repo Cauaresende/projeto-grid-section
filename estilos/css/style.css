@@ -78,6 +78,7 @@ section img {
 
 #section-jeanette {
     background-color: white;
+    color: var(--cinza-card);
 }
 
 #section-jeanette .txt-secundario {
@@ -90,6 +91,7 @@ section img {
 
 #section-kira {
     background-color: white;
+    color: var(--cinza-card);
 }
 
 #section-kira .txt-secundario {
