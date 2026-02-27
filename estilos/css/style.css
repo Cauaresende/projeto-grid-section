@@ -42,6 +42,7 @@ section {
     padding: 20px 40px;
     border-radius: 10px;
     text-align: justify;
+    color: var(--cinza-fonte);
 }
 
 section img {
@@ -52,7 +53,6 @@ section img {
 }
 
 #section-daniel {
-    color: white;
     background-color: var(--roxo);
 }
 
@@ -73,12 +73,10 @@ section img {
 }
 
 #section-jonathan {
-    color: white;
     background-color: var(--cinza-card);
 }
 
 #section-jeanette {
-    color: var(--cinza-card);
     background-color: white;
 }
 
@@ -87,12 +85,10 @@ section img {
 }
 
 #section-patrick {
-    color: var(--cinza-fonte);
     background-color: var(--azul-escuro);  
 }
 
 #section-kira {
-    color: var(--cinza-card);
     background-color: white;
 }
 
