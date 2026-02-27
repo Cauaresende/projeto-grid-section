@@ -21,12 +21,11 @@
 
 body{
     font-family: fonte-principal;
-    background-color: hsl(0, 0%, 81%);
-    height: 100vh;
+    background-color: hsl(0, 0%, 81%); 
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 main {   
@@ -36,7 +35,7 @@ main {
 
 section {
     margin: auto;
-    max-width: 350px;
+    max-width: 300px;
     text-align: center;
 }
 
@@ -63,12 +62,12 @@ section img {
 }
 
 .txt-principal {
-    font-size: 23px;
+    font-size: 20px;
     padding-bottom: 20px;
 }
 
 .txt-secundario {
-   color: lightgray;
+   color: lightgray; 
 }
 
 .section-jonathan {
