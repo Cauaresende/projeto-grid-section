@@ -29,14 +29,19 @@ h2 {
 }
 
 main {   
-    margin: auto;
+    margin: 50px 0;
+
     display: grid;
+    grid-template-columns: 80px 1fr 80px;
+    row-gap: 50px;
 }
 
 section {
-    margin: auto;
-    max-width: 300px;
-    text-align: center;
+    margin: 0px 0px;   
+    grid-column: 2 / 3;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: justify;
 }
 
 section img {
@@ -46,13 +51,9 @@ section img {
     border: 2px solid var(--roxo-claro);
 }
 
-.section-daniel {
-    margin-top: 50px;
+#section-daniel {
     color: white;
     background-color: var(--roxo);
-    padding: 20px 40px;
-    border-radius: 10px;
-    text-align: justify;
 }
 
 .icone-apresentacao {
@@ -64,53 +65,37 @@ section img {
 .txt-principal {
     font-size: 20px;
     padding-bottom: 20px;
+    font-weight: bold;
 }
 
 .txt-secundario {
    color: lightgray; 
 }
 
-.section-jonathan {
-    margin-top: 50px;
+#section-jonathan {
     color: white;
     background-color: var(--cinza-card);
-    padding: 20px 40px;
-    border-radius: 10px;
-    text-align: justify;
 }
 
-.section-jeanette {
-    margin-top: 50px;
+#section-jeanette {
     color: var(--cinza-card);
     background-color: white;
-    padding: 20px 40px;
-    border-radius: 10px;
-    text-align: justify;
 }
 
-.section-jeanette .txt-secundario {
+#section-jeanette .txt-secundario {
     color: var(--cinza-card);
 }
 
-.section-patrick {
-    margin-top: 50px;
+#section-patrick {
     color: var(--cinza-fonte);
-    background-color: var(--azul-escuro);
-    padding: 20px 40px;
-    border-radius: 10px;
-    text-align: justify;
+    background-color: var(--azul-escuro);  
 }
 
-.section-kira {
-    margin-top: 50px;
+#section-kira {
     color: var(--cinza-card);
     background-color: white;
-    padding: 20px 40px;
-    border-radius: 10px;
-    text-align: justify;
-    margin-bottom: 50px;
 }
 
-.section-kira .txt-secundario {
+#section-kira .txt-secundario {
     color: var(--cinza-card);
 }

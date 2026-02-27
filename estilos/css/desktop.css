@@ -1,0 +1,25 @@
+@media screen and (min-width: 1700px) {
+    
+    main {
+        max-width: 1500px;
+        margin: 80px auto;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+    
+    .icone-apresentacao {
+        padding: 15px 20px;
+    }
+    
+    .txt-principal {
+        font-size: 26px;
+        padding: 0 20px;
+    }
+
+    .txt-secundario {
+        font-size: 18px;
+        padding: 20px;
+    }
+}
